@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_weight="1"
+        android:background="@color/aquamarine" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_weight="1"
+        android:background="@color/light_sea_green" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_weight="1"
+        android:background="@color/lime_green" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:layout_weight="1"
+            android:background="@color/sandy_brown" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:layout_weight="1"
+            android:background="@color/purple_700" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:layout_weight="1"
+            android:background="@color/deep_pink" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            android:background="@color/gold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            android:background="@color/peach_puff" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            android:background="@color/medium_purple" />
+
+    </LinearLayout>
+</LinearLayout>
+
+
